@@ -19,7 +19,6 @@ Explanation: The largest element of the array is 10 and the second largest eleme
 #include <bits/stdc++.h>
 using namespace std;
 int getSecondLargest(vector<int> &arr) {
-        // code here
     sort(arr.begin(),arr.end());
     int n = arr.size();
     int max = arr[n-1];
@@ -39,7 +38,6 @@ Space complexity = O(1), Time complexity = O(2N) ~ O(N) */
 Space complexity = O(1), Time complexity = O(N)*/
 
 int getSecondLargest(vector<int> &arr) {
-    // Code Here
     int max= -1,secmax = -1;
     
     for(int i=0;i<arr.size();i++){
