@@ -17,7 +17,8 @@ space in the reversed string.
 /* Approach :- First Reverse the String and remove unwanted spaces or leading spaces by continuing it if temp has no data. 
 If temp has data and it triggered spacing means it has got a word so we are reverseing Temp and adding it to ans with space to ans. 
 In this way we will avoid extra spaces at last and make temp empty. if it did not trigger space then we have to add char's to temp.
-After Iterating check temp is empty if it is then return ans or add temp and return it.  */
+After Iterating check temp is empty if it is then return ans or add temp and return it.  
+Time Complexity = O(N) and space complexity = O(N)*/
 string reverseWords(string s) {
     reverse(s.begin(), s.end());
     string ans = "", temp = "";
