@@ -38,7 +38,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 #include <bits/stdc++.h>
 using namespace std;
 
-/* Approch 1 :- Take a variable K where we are counting non duplicates of array and inserting it into array. Check next array Index is 
+/* Approch 1(My Approch) :- Take a variable K where we are counting non duplicates of array and inserting it into array. Check next array Index is 
 not equal to current one, use the count as index and add the non matched current index value to k index and increase k. Check the last case
 and then return k.
 Time Complexity = O(N), Space Complexity = O(1) */
@@ -80,4 +80,3 @@ Time Complexity = O(N), Space Complexity = O(1) */
         return nextIndex;
     }
 
-    
